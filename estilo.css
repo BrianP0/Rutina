@@ -1,0 +1,39 @@
+*{
+	/*background-color: #344;*/
+}
+
+#contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #334;
+    
+
+}
+
+h3{  font-size: 1.3em;
+   /* align-items: center;*/
+    text-align: center;
+}
+
+p{  font-size: 1.5em;
+   /* align-items: center;*/
+    text-align: center;
+}
+
+.estudio{
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	transition: 0.2s all;
+
+}
+
+.estudio:hover{
+	background: #777;
+	
+}
+
+.title{
+	text-align: center;
+}
